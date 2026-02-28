@@ -244,7 +244,7 @@ void RestartTheGame (int lengthRound , int User_Won_count , int Computer_Won_Cou
 
 int main ()
 {
-    srand(unsigned)time(NULL);
+    srand((unsigned)time(NULL));
     int numberOfRounds = 0; // lengthRound
     int User_Won_count = 0 , Computer_Won_Count = 0  , DrawCOUNT = 0;
 
